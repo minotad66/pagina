@@ -158,14 +158,16 @@ section{
 
 article{
   background-color: #fff;
-  width: 300px;
+  height: auto;
+  width: 400px;
   margin: 10px;
+  margin-top: 50px;
   flex: 1 1 auto;
 }
 
 article img{
   width: 100%;
-  height: 300px;
+  height: 500px;;
 }
 
 article a{
@@ -177,9 +179,16 @@ article a{
   text-decoration: none;
   float: left;
 }
+.boton{
+  width: 92%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.829);
+  font-size: 20px;
+}
 
 .boton:hover {
-  background: #d8881e;
+  background: rgba(238, 158, 8, 0.829);
+  font-size: 20px;
 }
 
 .boton:hover:before {
@@ -214,7 +223,8 @@ footer li{
 }
 
 .logo{
-  flex: 1 1 auto;
+  display:block;
+  margin:auto;
   max-width: 150px;
   max-height:150px;
   border-radius: 50%;
@@ -223,15 +233,6 @@ footer li{
 .texto{
   flex: 2 1 auto;
   text-align: center;
-}
-
-.social{
-  flex: 1 1 auto;
-  flex-direction: row;
-}
-.social img{
-  max-width: 30px;
-  max-height: 30px;
 }
 
 @media all and (max-width: 1177px){
@@ -297,8 +298,8 @@ footer li{
 }
 
 .MainImage {
-width: 600px;
-height: 338px;
+width: auto;
+height: auto;
 overflow: hidden;
 cursor: pointer;
 }
@@ -344,8 +345,8 @@ bottom: 30px;
 
 .SecText p {
 position: absolute;
-top: 180px;
-width: 250px;
+top: auto;
+width: auto;
 border-left: 4px solid rgb(255, 255, 255) ;
 padding: 0 10px;
 background: rgba(0, 0, 0, 0.829);
@@ -394,10 +395,12 @@ opacity: 1;
   background: rgba(0, 0, 0, 0.829);
 }
 
+
+/*
 img{
   width: 100%;
   height: 300px;
   display:block;
   margin:auto;
   margin-left: 9em;
-}
+}*/
